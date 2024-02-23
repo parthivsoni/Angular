@@ -1,0 +1,21 @@
+<div class="calc"> 
+<h1>7<sup>th</sup> Task</h1>
+<h2>Product Calculation</h2>
+
+
+<input type="text" placeholder="Enter first number" id="number1" [(ngModel)]="number1" />
+
+<br />
+
+<input type="text" placeholder="Enter second number" id="number2" [(ngModel)]="number2" />
+
+<br />
+
+<button (click)="calculateProduct()">Calculate Product</button>
+
+<p *ngIf="product !== undefined && product !== null">
+  Product of the above two number is : {{ product }}
+</p>
+
+</div>
+
