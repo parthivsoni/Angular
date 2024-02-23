@@ -1,0 +1,30 @@
+<div class="calc">
+  <h1>8<sup>th</sup> Task</h1>
+  <h2>Arithmatic Calculation</h2>
+
+  <input type="text" placeholder="Enter first number" id="number1" [(ngModel)]="number1" />
+  <input type="text" placeholder="Enter second number" id="number2" [(ngModel)]="number2" />
+
+  <p *ngIf="result !== undefined && result !== null">
+    Arithmatic Operation of &nbsp;  {{ result }}
+  </p>
+
+</div>
+<div class="output">
+  <button (click)="performOperation('multiply')" style="text-align: center; display: block; padding: 10px"> * </button>
+  <button (click)="performOperation('add')">+</button>
+  <button (click)="performOperation('subtract')">&minus;</button>
+  <button (click)="performOperation('divide')">/</button>
+</div>
+
+
+<div class="concate">
+  <h1>5<sup>th</sup> Task </h1>
+  <input type="text" placeholder="Enter first String" id="string1" [(ngModel)]="string1" />
+  <input type="text" placeholder="Enter second String" id="string2" [(ngModel)]="string2" />
+  
+  <button (click)="concateString()">Concate</button>
+</div>
+  <p *ngIf="concat !== undefined && concat !== null">
+    Concatenation of both the String value : &nbsp;  {{ concat }}
+  </p>

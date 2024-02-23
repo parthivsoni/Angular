@@ -1,0 +1,82 @@
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: brown;
+    margin-bottom: 1px;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(74, 35, 228);
+    text-decoration: underline;
+}
+
+div input{
+    border: 2px solid rgb(234, 53, 16);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px;
+    font-size:1rem;
+}
+
+p{
+    color: brown;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.output button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid rgb(16, 147, 234);
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-size:2.5rem;
+    padding:10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.concate{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.concate button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(16, 147, 234);
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-size:1rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.concate input{
+    border: 2px solid black;
+}
